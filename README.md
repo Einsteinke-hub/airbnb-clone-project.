@@ -43,6 +43,44 @@ The service is built for clarity and extensibility so it can be used as a founda
 
 ---
 
+## 👥 Team Roles
+
+This project benefits from a cross-functional team. Below are common roles (informed by the project overview and standard role descriptions such as those from ITRexGroup) and what each is responsible for in this repository:
+
+- Backend Developer  
+  Responsible for designing and implementing the server-side application: Django models, serializers, views, GraphQL schema, authentication, business logic, and unit/integration tests. Ensures APIs are versioned, documented, and performant.
+
+- Database Administrator (DBA)  
+  Designs and maintains the PostgreSQL schema, indexes, migrations, backup/restore strategies, and performance tuning. Works closely with backend developers to model booking and availability logic and to optimize queries for scale.
+
+- DevOps / Infrastructure Engineer  
+  Builds and maintains containerization (Docker), docker-compose or Kubernetes manifests, CI/CD pipelines, deployment automation, and environment provisioning. Manages infrastructure-as-code, monitoring, logging, and application telemetry.
+
+- Site Reliability / Operations Engineer (SRE)  
+  Ensures reliability and uptime: monitoring, alerting, autoscaling, incident response, runbooks, and SLAs. Works with DevOps to improve fault-tolerance and to perform capacity planning.
+
+- QA Engineer / Test Engineer  
+  Creates and runs test plans, automated test suites (unit, integration, end-to-end), and regression tests for booking/payment flows and security-sensitive endpoints. Tracks bugs and verifies fixes before releases.
+
+- Frontend Developer (Integration)  
+  Implements the client-side integration with the backend APIs (authentication flows, listing and booking UI, GraphQL/REST queries). Collaborates on API design, CORS, and pagination/serialization expectations.
+
+- UX / UI Designer  
+  Designs user flows, wireframes, and interface patterns for property search, booking, and account management to ensure usability and accessibility. Provides assets and interaction specs for frontend implementation.
+
+- Product Manager / Owner  
+  Prioritizes features and defines acceptance criteria, coordinates stakeholders, writes user stories, and helps guide the roadmap and releases. Ensures the team focuses on customer value and compliance requirements.
+
+- Security Engineer  
+  Conducts threat modeling, security reviews, and vulnerability assessments. Responsible for secure configuration, secrets management, authentication/authorization design, and guidance for data protection and PCI considerations for payments.
+
+- Data Engineer / Analytics  
+  Designs event tracking, ETL pipelines, reporting schemas and supports analytics needs (e.g., occupancy rates, revenue reports). Ensures data quality and provides datasets for product and business decisions.
+
+These roles can overlap depending on team size; in smaller teams, individuals may wear multiple hats. Responsibilities should be adapted to match the team's composition and the project phase.
+
+---
+
 ## 🚀 Quickstart (Docker)
 Recommended for getting the full stack (DB, Redis, app, Celery) running quickly.
 
@@ -183,3 +221,5 @@ This project is licensed under the MIT License. See LICENSE for details.
 ## 📬 Contact
 Maintainer: Einsteinke-hub
 For questions, feature requests, or issues — open an issue in the repo or reach out via your preferred channel.
+
+```
